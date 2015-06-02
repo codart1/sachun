@@ -1,0 +1,7 @@
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="<?php echo ESTEEM_LIBS_URL ?>/jquery/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="<?php echo ESTEEM_LIBS_URL ?>/bootstrap/js/bootstrap.min.js"></script>
+		<script src="<?php echo ESTEEM_JS_URL ?>/sachun.js"></script>
+	</body>
+</html>

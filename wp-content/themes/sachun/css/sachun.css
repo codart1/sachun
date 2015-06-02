@@ -1,0 +1,233 @@
+/*start-----------------------------------------*/
+/* MISC */
+/*----------------------------------------------*/
+.img-fill {
+	width: 100%;
+}
+
+.invi {
+    visibility: hidden;
+}
+/*end-------------------------------------------*/
+/* MISC */
+/*----------------------------------------------*/
+
+/*start-----------------------------------------*/
+/* COMMON */
+/*----------------------------------------------*/
+@font-face {
+  font-family: 'NanumMyeongjo';
+  src: url('../fonts/NanumMyeongjo.eot');
+  src: url('../fonts/NanumMyeongjo.woff') format('woff'), url('../font/NanumMyeongjo.ttf') format('truetype');
+  
+  /* IE9 Compat Modes */
+}
+
+body {
+	font-family: 'NanumMyeongjo', Helvetica, sans-serif;
+}
+
+a {
+	color: #2c2c2c;
+}
+
+a:hover { 
+	color: #e85018;
+	text-decoration: none;
+}
+
+.container {
+	width: 960px;
+	padding: 0 20px;
+}
+#underconstruction {
+width: 100%;
+left:0% !important;
+margin: 0 auto;
+background-color:transparent;
+}
+#success {
+width: 100%;
+left:0% !important;
+margin: 0 auto;
+background-color:transparent;
+}
+.pwebcontact_toggler{
+display:none !important;
+}
+
+/*end-------------------------------------------*/
+/* COMMON */
+/*----------------------------------------------*/
+
+/*start-----------------------------------------*/
+/* LOGO */
+/*----------------------------------------------*/
+.sc-logo {
+	padding: 30px 0;
+}
+/*end-------------------------------------------*/
+/* LOGO */
+/*----------------------------------------------*/
+
+/*start-----------------------------------------*/
+/* CONTENT */
+/*----------------------------------------------*/
+.sc-content {
+	overflow: auto;
+}
+
+.sc-content  + .sc-content {
+	margin-top: 110px; 
+}
+
+.sc-content-no,
+.sc-content-text {
+	float: left;
+	border-top: 1px solid #959595;
+	padding-top: 40px;
+}
+
+.sc-content-no {
+	width: 200px;
+	margin-right: 28px;
+	font-size: 64px;
+	line-height: 1;
+}
+.sc-content-text {
+	width: 692px;
+}
+
+.sc-content-text-title {
+	margin-bottom: 40px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.sc-content-text-detail {
+	font-size: 14px;
+}
+
+.sc-content-img { float: left }
+/*end-------------------------------------------*/
+/* CONTENT */
+/*----------------------------------------------*/
+
+/*start-----------------------------------------*/
+/* CONTENT CUSTOMIZE (base on each content block) */
+/*----------------------------------------------*/
+#content1 .sc-content-img {
+
+	margin-top: 35px; 
+}
+
+#content2 {
+	margin-top: 160px;
+}
+#content2 .sc-content-img {
+	margin-top: 40px; 
+}
+
+#content3 {
+	margin-top: 220px;
+}
+#content3 .sc-content-text {
+	width: 310px;
+	margin-right: 28px;
+}
+#content3 .sc-content-img {
+	width: 354px;
+}
+
+#content4-img, #content4-text {
+	float: left;
+}
+#content4-img {
+	width: 280px;
+	margin-right: 28px;
+}
+#content4-text {
+	width: 384px;
+}
+
+#content4 {
+	margin-bottom: 264px;
+}
+/*end-------------------------------------------*/
+/* CONTENT CUSTOMIZE (base on each content block) */
+/*----------------------------------------------*/
+
+/*start-----------------------------------------*/
+/* NAV */
+/*----------------------------------------------*/
+.sc-nav {
+	float: right;
+}
+
+.sc-nav ul {
+	list-style: none;
+}
+
+.sc-nav ul li {
+	display: inline-block;
+	font-size: 14px;
+}
+
+.sc-nav ul li + li {
+	margin-left: 20px;
+}
+
+.sc-nav ul li.sc-nav-legend {
+	font-weight: bold;
+}
+/*end-------------------------------------------*/
+/* NAV */
+/*----------------------------------------------*/
+
+/*start-----------------------------------------*/
+/* SOCIAL */
+/*----------------------------------------------*/
+.social {
+	border-top: 1px solid #959595;;
+	border-bottom: 1px solid #cdcdcb;
+	padding: 10px 0;
+	position: relative;
+	width: 100%;
+}
+
+.social-list {
+	margin: 0; padding: 0;
+}
+
+.social-item {
+	display: inline-block;
+}
+
+.social-item + .social-item {
+	margin-left: 42px;
+}
+
+.social-label {
+	display: table-cell;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+}
+/*end-------------------------------------------*/
+/* SOCIAL */
+/*----------------------------------------------*/
+
+/*start-----------------------------------------*/
+/* FORM */
+/*----------------------------------------------*/
+.form-optional, .form-require {
+    padding: 10px 0;
+    border-top: 1px solid #cdcdcb;
+}
+
+.form-optional {
+    margin-top: 15px;
+}
+/*end-------------------------------------------*/
+/* FORM */
+/*----------------------------------------------*/

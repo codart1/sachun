@@ -1,7 +1,28 @@
 /*start-----------------------------------------*/
 /* NAV SUB */
 /*----------------------------------------------*/
+.sc-subnav {
 
+}
+
+.sc-subnav-title,
+.sc-subnav-nav {
+	float: left;
+	border-top: 2px solid #959595;
+	padding: 20px 0;
+}
+
+
+.sc-subnav-title {
+	width: 200px;
+	margin-right: 28px;
+	font-size: 32px;
+	line-height: 1;
+}
+
+.sc-subnav-nav {
+	width: 692px;
+}
 /*end-----------------------------------------*/
 /* NAV SUB */
 /*----------------------------------------------*/

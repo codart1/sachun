@@ -89,13 +89,20 @@
 <div class="sc-subnav">
 	<div class="container">
 
-		<div class="sc-subnav-title"></div>
+		<div class="sc-subnav-title">단체소개</div>
 		<div class="sc-subnav-nav">
 			<div class="sc-nav">
 				<ul>
-					<li><a href="">협회활동</a></li>
-					<li><a href="">최치원의 발자취</a></li>
-					<li><a href="">회원게시판</a></li>
+					<!-- Chairman’s Vision -->
+					<li><a href="<?php sachun_the_page('chairman-vision'); ?>">회장인사말</a></li>
+					<!-- Success Story -->
+					<li><a href="<?php sachun_the_page('success-story'); ?>">활동연혁</a></li>
+					<!-- Organization Chart -->
+					<li><a href="<?php sachun_the_page('organization-chart'); ?>">조직편성도</a></li>
+					<!-- Contact -->
+					<li><a href="<?php sachun_the_page('contact'); ?>">오시는 길</a></li>
+					<!-- Sponsor -->
+					<li><a href="<?php sachun_the_page('sponsor'); ?>">후원사</a></li>
 				</ul>
 			</div>
 		</div>

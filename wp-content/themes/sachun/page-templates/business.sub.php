@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Sub pages template (About)
+ * Template Name: Sub pages template (Business)
  *
  * @package ThemeGrill
  * @subpackage Esteem
@@ -89,20 +89,25 @@
 <div class="sc-subnav">
 	<div class="container">
 
-		<div class="sc-subnav-title">단체소개</div>
+		<div class="sc-subnav-title">사업소개</div>
 		<div class="sc-subnav-nav">
 			<div class="sc-nav">
 				<ul>
-					<!-- Chairman’s Vision -->
-					<li><a href="<?php sachun_the_page('chairman-vision'); ?>">회장인사말</a></li>
-					<!-- Success Story -->
-					<li><a href="<?php sachun_the_page('success-story'); ?>">활동연혁</a></li>
-					<!-- Organization Chart -->
-					<li><a href="<?php sachun_the_page('organization-chart'); ?>">조직편성도</a></li>
-					<!-- Contact -->
-					<li><a href="<?php sachun_the_page('contact'); ?>">오시는 길</a></li>
-					<!-- Sponsor -->
-					<li><a href="<?php sachun_the_page('sponsor'); ?>">후원사</a></li>
+					<!-- Namildae -->
+					<li><a href="<?php sachun_the_page('namildae'); ?>">남일대보존사업</a>
+					</li>
+					<!-- Goun -->
+					<li><a href="<?php sachun_the_page('goun'); ?>">고운최치원선생 계승사업</a>
+					</li>
+					<!-- Volunteer -->
+					<li><a href="<?php sachun_the_page('volunteer'); ?>">사회봉사사업</a>
+					</li>
+					<!-- Eco -->
+					<li><a href="<?php sachun_the_page('eco'); ?>">자연환경보전사업</a>
+					</li>
+					<!-- Ritual -->
+					<li><a href="<?php sachun_the_page('ritual'); ?>">연중제례행사</a>
+								</li>
 				</ul>
 			</div>
 		</div>

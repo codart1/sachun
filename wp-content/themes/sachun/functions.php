@@ -178,4 +178,12 @@ function sachun_the_page($slug) {
 	echo get_permalink( get_page_by_path( $slug ));
 }
 
+
+function sachun_img_tag( $atts ) {
+    extract(shortcode_atts( array('url' => 'missing'), $atts));
+
+    return "<img class='img-responsive' src='" . ESTEEM_IMAGES_URL . "/" . $url . "' alt=''/>";
+}
+add_shortcode( 'sachunimg', 'sachun_img_tag' );
+
 ?>

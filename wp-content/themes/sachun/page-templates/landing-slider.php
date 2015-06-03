@@ -91,23 +91,25 @@
 			<div id="the-slider">
 				<ul class="bjqs">
 					<li>
-						<!-- CONTENT 1 -->
-						<div class="sc-content" id="content1">
-							<div class="sc-content-no">1</div>	
-							<div class="sc-content-text">
-								<div class="sc-content-text-title">남일대</div>
-								<div class="sc-content-text-detail">
-									<p>고운 최치원 선생이 남쪽에서 가장 아름다운 곳이라 하여 <br/>
-	                                ‘남일대’라고 작명한 아름다운 절경. <br/>
-	                                인간이 만들어낸 오염물과 건축물 사이에서도 <br/>
-	                                남일대는 여전히 그 옛날 아름다움을 잃지 않고 있습니다.
-	                                </p>
-								</div>   <!-- sc-content-text-detail -->
-							</div>	<!-- sc-content-text -->
-							<div class="sc-content-img">
-								<img src="<?php echo ESTEEM_IMAGES_URL ?>/img-c1.jpg" alt="">
-							</div>
-						</div> <!-- sc-content -->
+<!-- CONTENT 1 -->
+<!-- <div class="container">	 -->
+<div class="sc-content" id="content1">
+	<div class="sc-content-no">1</div>	
+	<div class="sc-content-text">
+		<div class="sc-content-text-title">남일대</div>
+		<div class="sc-content-text-detail">
+			<p>고운 최치원 선생이 남쪽에서 가장 아름다운 곳이라 하여 <br/>
+            ‘남일대’라고 작명한 아름다운 절경. <br/>
+            인간이 만들어낸 오염물과 건축물 사이에서도 <br/>
+            남일대는 여전히 그 옛날 아름다움을 잃지 않고 있습니다.
+            </p>
+		</div>   <!-- sc-content-text-detail -->
+	</div>	<!-- sc-content-text -->
+	<div class="sc-content-img">
+		<img src="<?php echo ESTEEM_IMAGES_URL ?>/img-c1.jpg" alt="">
+	</div>
+</div> <!-- sc-content -->
+<!-- </div> -->
 					</li>
 
 

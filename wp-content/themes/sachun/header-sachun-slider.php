@@ -11,8 +11,10 @@
 		<link href="<?php echo ESTEEM_LIBS_URL ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<!-- Slider -->
 		<link href="<?php echo ESTEEM_LIBS_URL ?>/basic-jquery-slider-master/bjqs.css" rel="stylesheet">
+		<!-- FONTAWESOME -->
+		<link href="<?php echo ESTEEM_FONTAWESOME_URL ?>/css/font-awesome.min.css" rel="stylesheet">
 		<!-- Sachun -->
-		<link href="<?php echo ESTEEM_CSS_URL ?>/sachun.css" rel="stylesheet">
+		<link href="<?php echo ESTEEM_CSS_URL ?>/sachun-slider.css" rel="stylesheet">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

@@ -129,6 +129,8 @@ function esteem_constants() {
 	define( 'ESTEEM_ADMIN_IMAGES_URL', ESTEEM_ADMIN_URL . '/images' );
 	define( 'ESTEEM_ADMIN_JS_URL', ESTEEM_ADMIN_URL . '/js' );
 	define( 'ESTEEM_ADMIN_CSS_URL', ESTEEM_ADMIN_URL . '/css' );
+
+	define( 'ESTEEM_FONTAWESOME_URL', ESTEEM_PARENT_URL . '/font-awesome-4.3.0' );
 }
 }
 

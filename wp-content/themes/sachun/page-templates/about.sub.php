@@ -39,7 +39,7 @@
 							<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php sachun_the_page('contact'); ?>">오시는 길</a>
 							</li>
 							<!-- Sponsor -->
-							<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php sachun_the_page('sponsor'); ?>">후원사</a>
+							<li role="presentation"><a role="menuitem" tabindex="-1" onclick="$('#underconstruction').modal()">후원사</a>
 							</li>
 						</ul>
 					</div>			
@@ -102,7 +102,7 @@
 					<!-- Contact -->
 					<li><a href="<?php sachun_the_page('contact'); ?>">오시는 길</a></li>
 					<!-- Sponsor -->
-					<li><a href="<?php sachun_the_page('sponsor'); ?>">후원사</a></li>
+					<li><a onclick="" href="javascript:$('underconstruction').modal()">후원사</a></li>
 				</ul>
 			</div>
 		</div>
@@ -121,7 +121,19 @@
     wp_reset_query(); //resetting the page query
 ?>
 
-
+<div id="underconstruction" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+		    <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title invi">Message</h4>
+            </div>
+			<div class="modal-body">
+				<p class="text-center">준비중</p>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 <?php wp_footer(); ?>
 <?php get_footer("sachun-sub"); // Loads the footer.php template. ?>

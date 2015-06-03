@@ -40,7 +40,7 @@
 								<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php sachun_the_page('contact'); ?>">오시는 길</a>
 								</li>
 								<!-- Sponsor -->
-								<li role="presentation"><a role="menuitem" tabindex="-1" href="<?php sachun_the_page('sponsor'); ?>">후원사</a>
+								<li role="presentation"><a role="menuitem" tabindex="-1" onclick="$('underconstruction').modal()">후원사</a>
 								</li>
 							</ul>
 						</div>			
@@ -223,5 +223,7 @@
     		</div>
     	</div>
     </div>
+
+
 <?php wp_footer(); ?>
 <?php get_footer("sachun-slider"); // Loads the footer.php template. ?>

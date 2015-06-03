@@ -173,4 +173,9 @@ if ( !function_exists( 'optionsframework_init' ) ) {
 	$optionsfile = locate_template( 'options.php' );
 	load_template( $optionsfile );
 }
+
+function sachun_the_page($slug) {
+	echo get_permalink( get_page_by_path( $slug ));
+}
+
 ?>
